@@ -1,0 +1,17 @@
+{
+  "name": "datasvc",
+  "version": "1.0.0",
+  "description": "This service deals with data accumulation,processing and storage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adarsh",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1560.0",
+    "express": "^4.18.2",
+    "kafkajs": "^2.2.4",
+    "redis": "^4.6.13"
+  }
+}
